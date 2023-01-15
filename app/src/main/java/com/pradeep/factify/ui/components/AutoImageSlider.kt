@@ -71,29 +71,22 @@ fun AutoImageSlider(
             transitionSpec ={
                 //new value enter trans
                 //old value exit trans
-
-                    expandVertically { fullHeight -> fullHeight } + fadeIn(tween(1000)) with
-                            fadeOut(tween(1000))
-
-
+                    slideInVertically { fullHeight -> -fullHeight } + fadeIn(tween(1000, easing = LinearOutSlowInEasing)) with
+                            fadeOut()
             }
         ) {
-
             Text(modifier=Modifier.padding(4.dp),
-                text = list[page].text, style = MaterialTheme.typography.h2)
+                text = list[page].text , style = MaterialTheme.typography.h2)
         }
-
 
         HorizontalPagerIndicator(
             pagerState = pagerState,
             spacing = 4.dp,
             indicatorWidth = 5.dp,
             activeColor = MaterialTheme.colors.primary,
-            inactiveColor = MaterialTheme.colors.primary.copy(alpha = 0.5f)
+            inactiveColor = MaterialTheme.colors.primary.copy(alpha = 0.3f)
         )
-
     }
-
 }
 
 data class AutoImageSliderData(

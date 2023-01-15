@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
                         ),
                         AutoImageSliderData(
                             "https://developer.android.com/static/images/jetpack/compose/graphics-sourceimageland.jpg",
-                            "sample text 2",
+                            "sample text 2 Man stunned to learn random dog he spotted online is actually related to his own pup",
                         ),
                         AutoImageSliderData(
                             "https://cdn.sanity.io/images/rqbxxjr2/production/d0e1439679d3fc1f9adeaae9a27f3cdbf8c07a5e-1080x884.jpg?w=800",
