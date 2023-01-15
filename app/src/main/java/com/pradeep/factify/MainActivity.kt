@@ -44,7 +44,12 @@ class MainActivity : ComponentActivity() {
                         AutoImageSliderData(
                             "https://developer.android.com/static/images/jetpack/compose/graphics-sourceimageland.jpg",
                             "sample text 2",
-                        )
+                        ),
+                        AutoImageSliderData(
+                            "https://cdn.sanity.io/images/rqbxxjr2/production/d0e1439679d3fc1f9adeaae9a27f3cdbf8c07a5e-1080x884.jpg?w=800",
+                            "Tate became highly prominent in 2022 by encouraging members of Hustler's University to post large amounts of videos of him to social media platforms in an effort to maximize engagement. As of August 2022, its website had amassed over 100,000 subscribers",
+                        ),
+
                     )
                     AutoImageSlider(list = list)
 
