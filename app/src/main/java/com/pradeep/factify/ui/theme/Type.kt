@@ -13,7 +13,7 @@ val Typography = Typography(
     h1 = TextStyle(
         fontFamily = FontFamily(Font(R.font.lexend_bold)),
         fontWeight = FontWeight.Bold,
-        fontSize = 16.sp
+        fontSize = 25.sp
     ),
     body2 = TextStyle(
         fontFamily = FontFamily(Font(R.font.lexend_light)),
@@ -28,7 +28,7 @@ val Typography = Typography(
     h2 = TextStyle(
         fontFamily = FontFamily(Font(R.font.lexend_semibold)),
         fontWeight = FontWeight.SemiBold,
-        fontSize = 16.sp
+        fontSize = 20.sp
     ),
 
     /* Other default text styles to override
